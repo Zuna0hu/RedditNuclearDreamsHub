@@ -24,8 +24,10 @@ The goal is to build a fully-featured website that performs the following featur
 
 ### 3. Integrating a Third-Party API
 - **Technology**: External API Integration
-- **Library**: `requests`, API-specific SDKs (e.g., `openai` for OpenAI GPT or `google-cloud` for NLP)
-- **Example Usage**: Analyze post content with sentiment analysis or AI-generated insights.
+- **Library**: `requests`, API-specific SDKs (e.g., `google-cloud-translate` for Google Transalte, `openai` for OpenAI GPT, and `biblegateway` for Bible verses)
+- **Example Usage**: 
+    - Combing Bible verses with Reddit posts or translations for enriching content.
+    - Use the BibleGateWay API to retrieve Bible verses in different versions.
 
 ---
 
