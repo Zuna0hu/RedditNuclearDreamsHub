@@ -118,34 +118,64 @@ Build a website that scrapes Reddit posts containing keywords like **"nuclear wa
 
 ## Project Directory Structure
 reddit-nuclear-dreams-hub/ 
+
 │ ├── app/                      # Main application code 
+
 │ ├── init.py                   # To initialize the package 
+
 │ ├── reddit_scraper.py         # Module to handle Reddit scraping 
+
 │ ├── google_translate.py       # Module to handle Google Translate API 
+
 │ ├── biblegateway.py           # Module for BibleGateway API integration 
+
 │ ├── api/                      # API-related code 
+
 │ │ ├── init.py 
+
 │ │ └── routes.py               # Define the API routes (e.g., for serving scraped posts) 
+
 │ ├── models/                   # Define database models 
+
 │ │ ├── init.py 
+
 │ │ ├── post.py                 # Post model for storing Reddit and Bible content 
+
 │ │ └── user.py                 # User model if you plan to have user authentication 
+
 │ └── services/                 # Business logic (e.g., notifications, processing) 
+
 │ ├── init.py 
+
 │ └── notification.py           # Handle email/SMS notifications 
+
 │ ├── static/                   # Static files (CSS, JavaScript, images) 
+
 │ └── styles.css                # Main stylesheet 
+
 │ ├── templates/                # HTML templates for frontend 
+
 │ └── index.html                # Main page template 
+
 │ ├── migrations/               # Database migrations 
+
 │ └── (auto-generated files)    # If using a framework like Flask or Django 
+
 │ ├── tests/                    # Unit and integration tests 
+
 │ ├── init.py 
+
 │ ├── test_scraper.py           # Tests for scraping functionality 
+
 │ ├── test_translate.py         # Tests for Google Translate integration 
+
 │ └── test_biblegateway.py      # Tests for BibleGateway API 
+
 │ ├── config.py                 # Configuration file for environment variables, settings 
+
 ├── requirements.txt            # Python dependencies 
+
 ├── README.md                   # Project documentation 
+
 └── project_overview.md         # Project overview (this file)
 
